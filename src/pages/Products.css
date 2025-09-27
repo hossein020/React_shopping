@@ -1,0 +1,24 @@
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* ستون‌ها */
+  gap: 20px; /* فاصله بین کارت‌ها */
+  direction: rtl; /* کل گرید راست به چپ */
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: right; /* متن داخل کارت راست‌چین */
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;         /* ارتفاع ثابت برای همه تصاویر */
+  object-fit: cover;     /* تصویر رو کراپ میکنه تا کشیده یا فشرده نشه */
+  border-radius: 6px;
+}

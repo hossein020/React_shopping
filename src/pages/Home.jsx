@@ -1,5 +1,10 @@
 export default function Home(){
 return(
-    <h1>home</h1>
+    <div className="page">
+        <h1>خانه</h1>
+        <p>
+            به وبسایت ما خوش امدید!   
+        </p>
+    </div>
 )
 }
